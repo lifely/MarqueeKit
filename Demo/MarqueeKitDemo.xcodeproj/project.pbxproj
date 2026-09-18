@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D4CA8D8D5C1B1E486D0BD80 /* MarqueeKitDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MarqueeKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4CA8D8D5C1B1E486D0BD80 /* MarqueeKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329AD2251C8C39E63B4F60EC /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		5345544B94BB3167530F6889 /* MarqueeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MarqueeKit; path = ..; sourceTree = SOURCE_ROOT; };
 		93F46DA7D8594D5225841086 /* ShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseView.swift; sourceTree = "<group>"; };
@@ -95,8 +95,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = FEDE37793D615D8A384A05F8 /* Build configuration list for PBXProject "MarqueeKitDemo" */;
 			developmentRegion = en;
@@ -140,6 +138,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +275,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MarqueeKit",
     platforms: [
-        .iOS(.v17),
+        .iOS(.v15),
         .macOS(.v14),
         .tvOS(.v17),
     ],
